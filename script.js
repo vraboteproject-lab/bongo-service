@@ -1,6 +1,6 @@
 // Navbar scroll effect
 // No direct text change needed in script.js for AutoPro vs Bongo unless it was in logs
-console.log('Bongo Service script initialized');
+console.log('EXPERT Autoteenindus script initialized');
 const navbar = document.getElementById("navbar");
 let lastScroll = 0;
 
@@ -156,5 +156,5 @@ if (statsSection) {
 
 // Initial visibility
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Bongo Service initialized");
+  console.log("EXPERT Autoteenindus initialized");
 });
