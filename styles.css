@@ -37,11 +37,13 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 60px;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 40px;
+  position: relative;
 }
 
 .nav__desktop {
@@ -68,9 +70,7 @@ body {
   text-decoration: none;
   color: var(--white);
   letter-spacing: 0.05em;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  flex-shrink: 0;
 }
 
 .logo span {
