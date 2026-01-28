@@ -71,13 +71,14 @@ body {
 
 /* ===== HERO ===== */
 .hero {
-  height: 100vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
   background: var(--black);
+  padding: 160px 0 80px;
 }
 
 .hero__glow-top,
@@ -128,7 +129,7 @@ body {
 
 /* ===== SERVICES SECTION ===== */
 .services {
-  padding: 120px 0;
+  padding: 60px 0 120px;
   background: var(--black);
 }
 
