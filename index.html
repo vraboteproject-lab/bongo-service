@@ -1,570 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EXPERT Autoteenindus | Премиальный автосервис в Таллине</title>
-    <meta
-      name="description"
-      content="EXPERT Autoteenindus - премиальный автосервис в Таллине. Современное оборудование, эксперты с опытом, гарантия качества. Диагностика, ремонт, шиномонтаж."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Glowing Frame -->
-    <div class="page-frame"></div>
-    
-    <!-- Animated Background -->
-    <div class="bg-animation">
-      <div class="bg-gradient"></div>
-      <div class="floating-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-      </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-      <div class="nav-container">
-        <a href="#" class="logo">
-          <span class="logo-text">EXPERT<span class="logo-accent"> Autoteenindus</span></span>
-        </a>
-        <ul class="nav-links">
-          <li><a href="#about" class="nav-link">О нас</a></li>
-          <li><a href="#services" class="nav-link">Услуги</a></li>
-          <li><a href="#advantages" class="nav-link">Преимущества</a></li>
-          <li><a href="#prices" class="nav-link">Цены</a></li>
-          <li><a href="#contact" class="nav-link">Контакты</a></li>
-        </ul>
-        <div class="nav-cta">
-          <a href="tel:+37255012345" class="phone-link">
-            +372 5501 2345
-          </a>
-          <a href="#contact" class="btn">Записаться</a>
-        </div>
-        <button class="mobile-menu-btn" id="mobileMenuBtn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXPERT AUTO | Премиальный автосервис в Таллине</title>
+  <meta name="description" content="EXPERT AUTO - премиальный автосервис в Таллине. Современное оборудование, эксперты с опытом, гарантия качества.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav">
+      <a href="#services" class="nav__link">УСЛУГИ</a>
+      <a href="#about" class="nav__link">О НАС</a>
+      <a href="#" class="logo">EXPERT<span>Autoteenindus</span></a>
+      <a href="#prices" class="nav__link">ЦЕНЫ</a>
+      <a href="#contact" class="nav__link">КОНТАКТЫ</a>
     </nav>
+  </header>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobileMenu">
-      <ul class="mobile-nav-links">
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#advantages">Преимущества</a></li>
-        <li><a href="#prices">Цены</a></li>
-        <li><a href="#contact">Контакты</a></li>
-      </ul>
-      <a href="tel:+37255012345" class="mobile-phone">+372 5501 2345</a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__glow-top"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">СОВРЕМЕННЫЙ<br>АВТОСЕРВИС</h1>
+      <p class="hero__text">Премиальное обслуживание вашего автомобиля в Таллине</p>
+      <a href="#contact" class="btn">ЗАПИСАТЬСЯ <span>→</span></a>
     </div>
+    <div class="hero__glow-bottom"></div>
+  </section>
 
-    <!-- Hero Section -->
-    <header class="hero" id="hero">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="badge-icon">★</span>
-          <span>Более 10 лет опыта</span>
-        </div>
-        <h1 class="hero-title">
-          Современный
-          <span class="gradient-text">автосервис</span>
-          в Таллине
-        </h1>
-        <p class="hero-description">
-          Ответить на вопрос «Что случилось?» могут многие. Мы готовы идти дальше. 
-          Почему произошла поломка? Как избежать повторения? Все системы автомобиля 
-          могут быть качественно продиагностированы и отремонтированы в EXPERT Autoteenindus.
-        </p>
-        <div class="hero-buttons">
-          <a href="#contact" class="btn btn-primary btn-large">
-            <span>Записаться</span>
-            <span class="btn-arrow">→</span>
-          </a>
-          <a href="#services" class="btn btn-large">
-            <span>Услуги</span>
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <span class="stat-number">5000+</span>
-            <span class="stat-label">Клиентов</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-number">15+</span>
-            <span class="stat-label">Услуг</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-number">2</span>
-            <span class="stat-label">Филиала</span>
-          </div>
-        </div>
-      </div>
-
-    </header>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">О компании</span>
-          <h2 class="section-title">
-            Почему выбирают <span class="gradient-text">EXPERT Autoteenindus</span>
-          </h2>
-        </div>
-        <div class="about-content">
-          <div class="about-text">
-            <p class="about-lead">
-              EXPERT Autoteenindus — это современный многофункциональный автосервис
-              нового поколения. Мы с особым вниманием относимся к каждому
-              клиенту и его автомобилю.
-            </p>
-            <p>
-              Наши автомеханики — это образованные, грамотные специалисты, 
-              которые умеют не только следовать инструкции, но прежде всего — 
-              думать. Думать над решением задачи, думать в интересах клиента.
-            </p>
-            <p>
-              У нас вы можете сделать всё и сразу: от замены резины до
-              капитального ремонта двигателя. И всё это по разумным ценам с
-              гарантией качества.
-            </p>
-          </div>
-          <div class="about-features">
-            <div class="feature-card">
-              <div class="feature-icon">💰</div>
-              <h3>Честные цены</h3>
-              <p>Прозрачное ценообразование без скрытых платежей</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">🛡️</div>
-              <h3>Гарантия качества</h3>
-              <p>Гарантия на все виды выполненных работ</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">⚡</div>
-              <h3>Быстрый сервис</h3>
-              <p>Оперативное выполнение заказов</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">🏆</div>
-              <h3>Эксперты</h3>
-              <p>Сертифицированные специалисты</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="services">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Услуги</span>
-          <h2 class="section-title">
-            Полный спектр <span class="gradient-text">автоуслуг</span>
-          </h2>
-          <p class="section-description">
-            От простой диагностики до сложного ремонта — мы справимся
-            с любой задачей
-          </p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">🔍</div>
-            <h3>Диагностика</h3>
-            <p>
-              Полная диагностика всех систем автомобиля с помощью современного
-              оборудования
-            </p>
-            <span class="service-price">от 50€</span>
-          </div>
-          <div class="service-card featured">
-            <div class="service-badge">Популярно</div>
-            <div class="service-icon">🛢️</div>
-            <h3>Замена масла</h3>
-            <p>Быстрая замена масла с использованием качественных материалов</p>
-            <span class="service-price">от 45€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">⚙️</div>
-            <h3>Ремонт двигателя</h3>
-            <p>Капитальный и текущий ремонт двигателей любой сложности</p>
-            <span class="service-price">от 300€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🔗</div>
-            <h3>Замена ремня ГРМ</h3>
-            <p>Профессиональная замена ремня ГРМ с установкой новых роликов</p>
-            <span class="service-price">от 150€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🎯</div>
-            <h3>3D Развал-схождение</h3>
-            <p>
-              Точная регулировка углов установки колёс на современном стенде
-            </p>
-            <span class="service-price">от 60€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🛞</div>
-            <h3>Шиномонтаж</h3>
-            <p>Сезонная замена шин, балансировка, хранение колёс</p>
-            <span class="service-price">от 40€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">❄️</div>
-            <h3>Ремонт кондиционера</h3>
-            <p>Заправка, диагностика и ремонт системы кондиционирования</p>
-            <span class="service-price">от 80€</span>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">💻</div>
-            <h3>Программирование</h3>
-            <p>Обновление ПО, восстановление блоков, открытие опций</p>
-            <span class="service-price">от 100€</span>
-          </div>
-        </div>
-        <div class="services-cta">
-          <a href="#contact" class="btn btn-primary btn-large">
-            Узнать стоимость ремонта
-            <span class="btn-arrow">→</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Advantages Section -->
-    <section class="advantages" id="advantages">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Преимущества</span>
-          <h2 class="section-title">
-            Почему <span class="gradient-text">мы лучшие</span>
-          </h2>
-        </div>
-        <div class="advantages-grid">
-          <div class="advantage-card">
-            <div class="advantage-number">01</div>
-            <div class="advantage-content">
-              <h3>Современное оборудование</h3>
-              <p>
-                Используем только проверенное оборудование ведущих мировых
-                производителей для точной диагностики и качественного ремонта.
-              </p>
-            </div>
-          </div>
-          <div class="advantage-card">
-            <div class="advantage-number">02</div>
-            <div class="advantage-content">
-              <h3>Оригинальные запчасти</h3>
-              <p>
-                Работаем только с проверенными поставщиками. Устанавливаем
-                оригинальные или качественные аналоговые запчасти.
-              </p>
-            </div>
-          </div>
-          <div class="advantage-card">
-            <div class="advantage-number">03</div>
-            <div class="advantage-content">
-              <h3>Фиксированные сроки</h3>
-              <p>
-                Точно соблюдаем согласованные сроки выполнения работ. Уважаем
-                ваше время и планируем работу оптимально.
-              </p>
-            </div>
-          </div>
-          <div class="advantage-card">
-            <div class="advantage-number">04</div>
-            <div class="advantage-content">
-              <h3>Гарантия на работы</h3>
-              <p>
-                Предоставляем гарантию на все виды работ. В случае проблем —
-                устраняем бесплатно.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Prices Section -->
-    <section class="prices" id="prices">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Прайс-лист</span>
-          <h2 class="section-title">
-            Наши <span class="gradient-text">цены</span>
-          </h2>
-          <p class="section-description">
-            Прозрачное ценообразование — вы всегда знаете, за что платите
-          </p>
-        </div>
-        <div class="price-table">
-          <div class="price-category">
-            <h3 class="price-category-title">
-              <span class="price-icon">🔧</span>
-              Техническое обслуживание
-            </h3>
-            <div class="price-items">
-              <div class="price-item">
-                <span class="price-name">Замена масла в двигателе</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 45€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Замена тормозных колодок</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 35€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Замена тормозных дисков</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 55€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Замена фильтров</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 15€</span>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="services__heading">УСЛУГИ</h2>
+      <div class="services__row">
+        <!-- Card 1 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">ДИАГНОСТИКА</div>
+            <div class="services__price">от 50 €</div>
+            <div class="services__info">
+              <div class="services__info-title">ДИАГНОСТИКА</div>
+              <div class="services__info-text">
+                <p>Полная компьютерная диагностика всех систем автомобиля с помощью современного оборудования.</p>
               </div>
             </div>
           </div>
-          <div class="price-category">
-            <h3 class="price-category-title">
-              <span class="price-icon">⚙️</span>
-              Ремонт двигателя
-            </h3>
-            <div class="price-items">
-              <div class="price-item">
-                <span class="price-name">Компьютерная диагностика</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 50€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Замена ремня ГРМ</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 150€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Замена сцепления</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 200€</span>
-              </div>
-              <div class="price-item">
-                <span class="price-name">Капитальный ремонт</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 800€</span>
+        </div>
+        <!-- Card 2 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">ЗАМЕНА МАСЛА</div>
+            <div class="services__price">от 45 €</div>
+            <div class="services__info">
+              <div class="services__info-title">ЗАМЕНА МАСЛА</div>
+              <div class="services__info-text">
+                <p>Быстрая замена масла с использованием качественных материалов и оригинальных фильтров.</p>
               </div>
             </div>
           </div>
-          <div class="price-category">
-            <h3 class="price-category-title">
-              <span class="price-icon">🛞</span>
-              Шиномонтаж
-            </h3>
-            <div class="price-items">
-              <div class="price-item">
-                <span class="price-name">Сезонная замена шин</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 40€</span>
+        </div>
+        <!-- Card 3 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1502743780242-f10d2ce370f3?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">РЕМОНТ ДВИГАТЕЛЯ</div>
+            <div class="services__price">от 300 €</div>
+            <div class="services__info">
+              <div class="services__info-title">РЕМОНТ ДВИГАТЕЛЯ</div>
+              <div class="services__info-text">
+                <p>Капитальный и текущий ремонт двигателей любой сложности. Гарантия на все работы.</p>
               </div>
-              <div class="price-item">
-                <span class="price-name">Балансировка колёс</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 20€</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">ТОРМОЗНАЯ СИСТЕМА</div>
+            <div class="services__price">от 80 €</div>
+            <div class="services__info">
+              <div class="services__info-title">ТОРМОЗНАЯ СИСТЕМА</div>
+              <div class="services__info-text">
+                <p>Замена тормозных колодок и дисков. Ремонт и обслуживание тормозной системы.</p>
               </div>
-              <div class="price-item">
-                <span class="price-name">3D развал-схождение</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 60€</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1551522435-a13afa10f103?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">РАЗВАЛ-СХОЖДЕНИЕ</div>
+            <div class="services__price">от 60 €</div>
+            <div class="services__info">
+              <div class="services__info-title">РАЗВАЛ-СХОЖДЕНИЕ</div>
+              <div class="services__info-text">
+                <p>3D развал-схождение на современном стенде. Точная регулировка углов установки колёс.</p>
               </div>
-              <div class="price-item">
-                <span class="price-name">Ремонт прокола</span>
-                <span class="price-dots"></span>
-                <span class="price-value">от 15€</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="services__col">
+          <div class="services__item">
+            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&q=80&w=500" alt="" class="services__image">
+            <div class="services__title">ШИНОМОНТАЖ</div>
+            <div class="services__price">от 40 €</div>
+            <div class="services__info">
+              <div class="services__info-title">ШИНОМОНТАЖ</div>
+              <div class="services__info-text">
+                <p>Сезонная замена шин, балансировка колёс, ремонт проколов, хранение шин.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Контакты</span>
-          <h2 class="section-title">
-            Свяжитесь <span class="gradient-text">с нами</span>
-          </h2>
-        </div>
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="contact-card">
-              <div class="contact-icon">📍</div>
-              <div class="contact-details">
-                <h3>Филиал Lasnamäe</h3>
-                <p>Väike-Paala 10, Tallinn</p>
-                <a href="tel:+37255012345" class="contact-phone">+372 5501 2345</a>
-                <p class="contact-hours">
-                  Пн-Пт: 9:00 - 18:00<br />Сб: 10:00 - 15:00
-                </p>
-              </div>
-            </div>
-            <div class="contact-card">
-              <div class="contact-icon">📍</div>
-              <div class="contact-details">
-                <h3>Филиал Mustamäe</h3>
-                <p>Akadeemia tee 78, Tallinn</p>
-                <a href="tel:+37255067890" class="contact-phone">+372 5506 7890</a>
-                <p class="contact-hours">
-                  Пн-Пт: 9:00 - 18:00<br />Сб: 10:00 - 15:00
-                </p>
-              </div>
-            </div>
-            <div class="contact-socials">
-              <a href="#" class="social-link" aria-label="Facebook">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
-              </a>
-              <a href="#" class="social-link" aria-label="Instagram">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"></rect>
-                  <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"></circle>
-                  <circle cx="18" cy="6" r="1"></circle>
-                </svg>
-              </a>
-              <a href="https://wa.me/37255012345" class="social-link" aria-label="WhatsApp">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
-              </a>
-              <a href="mailto:info@expert-auto.ee" class="social-link" aria-label="Email">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2"></path>
-                  <polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"></polyline>
-                </svg>
-              </a>
-            </div>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">КОНТАКТЫ</h2>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact__item">
+            <div class="contact__label">АДРЕС</div>
+            <div class="contact__value">Väike-Paala 10, Tallinn</div>
           </div>
-          <div class="contact-form-wrapper">
-            <form class="contact-form" id="contactForm">
-              <h3>Запишитесь на ремонт</h3>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Ваше имя"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Телефон"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="car"
-                  name="car"
-                  placeholder="Марка и модель авто"
-                />
-              </div>
-              <div class="form-group">
-                <select id="service" name="service">
-                  <option value="">Выберите услугу</option>
-                  <option value="diagnostic">Компьютерная диагностика</option>
-                  <option value="oil">Замена масла</option>
-                  <option value="engine">Ремонт двигателя</option>
-                  <option value="timing">Замена ремня ГРМ</option>
-                  <option value="alignment">3D Развал-схождение</option>
-                  <option value="tires">Шиномонтаж</option>
-                  <option value="ac">Ремонт кондиционера</option>
-                  <option value="programming">Программирование</option>
-                  <option value="other">Другое</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Опишите проблему или вопрос"
-                  rows="4"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-large btn-full">
-                Отправить заявку
-                <span class="btn-arrow">→</span>
-              </button>
-            </form>
+          <div class="contact__item">
+            <div class="contact__label">ТЕЛЕФОН</div>
+            <a href="tel:+37255012345" class="contact__value contact__phone">+372 5501 2345</a>
+          </div>
+          <div class="contact__item">
+            <div class="contact__label">ВРЕМЯ РАБОТЫ</div>
+            <div class="contact__value">Пн-Пт: 9:00 - 18:00<br>Сб: 10:00 - 15:00</div>
           </div>
         </div>
+        <form class="contact__form">
+          <input type="text" placeholder="Ваше имя" class="contact__input">
+          <input type="tel" placeholder="Телефон" class="contact__input">
+          <textarea placeholder="Сообщение" class="contact__textarea"></textarea>
+          <button type="submit" class="btn btn--full">ОТПРАВИТЬ <span>→</span></button>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <a href="#" class="logo">
-              <span class="logo-text">EXPERT<span class="logo-accent"> Autoteenindus</span></span>
-            </a>
-            <p>
-              Премиальный автосервис в Таллине. Качество, которому можно
-              доверять.
-            </p>
-          </div>
-          <div class="footer-links">
-            <h4>Навигация</h4>
-            <ul>
-              <li><a href="#about">О нас</a></li>
-              <li><a href="#services">Услуги</a></li>
-              <li><a href="#prices">Цены</a></li>
-              <li><a href="#contact">Контакты</a></li>
-            </ul>
-          </div>
-          <div class="footer-links">
-            <h4>Услуги</h4>
-            <ul>
-              <li><a href="#services">Диагностика</a></li>
-              <li><a href="#services">Замена масла</a></li>
-              <li><a href="#services">Ремонт двигателя</a></li>
-              <li><a href="#services">Шиномонтаж</a></li>
-            </ul>
-          </div>
-          <div class="footer-contact">
-            <h4>Контакты</h4>
-            <p>📞 <a href="tel:+37255012345">+372 5501 2345</a></p>
-            <p>📧 <a href="mailto:info@expert-auto.ee">info@expert-auto.ee</a></p>
-            <p>📍 Väike-Paala 10, Tallinn</p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>© 2024 EXPERT Autoteenindus. Все права защищены.</p>
-        </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a href="#" class="logo">EXPERT<span>Autoteenindus</span></a>
+        <p class="footer__copy">© 2024 EXPERT Autoteenindus. Все права защищены.</p>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
