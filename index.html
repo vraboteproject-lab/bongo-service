@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bongo Service | Профессиональный автосервис в Таллине</title>
+    <title>Bongo Service | Премиальный автосервис в Таллине</title>
     <meta
       name="description"
-      content="Bongo Service - современный автосервис в Таллине. Ремонт двигателей, диагностика, шиномонтаж, замена масла. Гарантия качества, честные цены."
+      content="Bongo Service - премиальный автосервис в Таллине. Современное оборудование, эксперты с опытом, гарантия качества. Диагностика, ремонт, шиномонтаж."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Glowing Frame -->
+    <div class="page-frame"></div>
+    
     <!-- Animated Background -->
     <div class="bg-animation">
       <div class="bg-gradient"></div>
@@ -31,10 +34,7 @@
     <nav class="navbar" id="navbar">
       <div class="nav-container">
         <a href="#" class="logo">
-          <span class="logo-icon">🔧</span>
-          <span class="logo-text"
-            >Bongo<span class="logo-accent">Service</span></span
-          >
+          <span class="logo-text">BONGO<span class="logo-accent">SERVICE</span></span>
         </a>
         <ul class="nav-links">
           <li><a href="#about" class="nav-link">О нас</a></li>
@@ -45,10 +45,9 @@
         </ul>
         <div class="nav-cta">
           <a href="tel:+37255012345" class="phone-link">
-            <span class="phone-icon">📞</span>
             +372 5501 2345
           </a>
-          <a href="#contact" class="btn btn-primary">Записаться</a>
+          <a href="#contact" class="btn">Записаться</a>
         </div>
         <button class="mobile-menu-btn" id="mobileMenuBtn">
           <span></span>
@@ -74,36 +73,37 @@
     <header class="hero" id="hero">
       <div class="hero-content">
         <div class="hero-badge">
-          <span class="badge-icon">⭐</span>
+          <span class="badge-icon">★</span>
           <span>Более 10 лет опыта</span>
         </div>
         <h1 class="hero-title">
-          Профессиональный
+          Современный
           <span class="gradient-text">автосервис</span>
           в Таллине
         </h1>
         <p class="hero-description">
-          Современное оборудование, опытные мастера и честные цены. Мы вернём
-          вашему автомобилю идеальное состояние.
+          Ответить на вопрос «Что случилось?» могут многие. Мы готовы идти дальше. 
+          Почему произошла поломка? Как избежать повторения? Все системы автомобиля 
+          могут быть качественно продиагностированы и отремонтированы в Bongo Service.
         </p>
         <div class="hero-buttons">
           <a href="#contact" class="btn btn-primary btn-large">
-            <span>Записаться на ремонт</span>
+            <span>Записаться</span>
             <span class="btn-arrow">→</span>
           </a>
-          <a href="#services" class="btn btn-secondary btn-large">
-            <span>Наши услуги</span>
+          <a href="#services" class="btn btn-large">
+            <span>Услуги</span>
           </a>
         </div>
         <div class="hero-stats">
           <div class="stat-item">
             <span class="stat-number">5000+</span>
-            <span class="stat-label">Довольных клиентов</span>
+            <span class="stat-label">Клиентов</span>
           </div>
           <div class="stat-divider"></div>
           <div class="stat-item">
             <span class="stat-number">15+</span>
-            <span class="stat-label">Видов услуг</span>
+            <span class="stat-label">Услуг</span>
           </div>
           <div class="stat-divider"></div>
           <div class="stat-item">
@@ -112,17 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-image">
-        <div class="hero-image-container">
-          <div class="hero-glow"></div>
-          <div class="car-illustration">
-            <div class="car-body">🚗</div>
-            <div class="tools-float tool-1">🔧</div>
-            <div class="tools-float tool-2">⚙️</div>
-            <div class="tools-float tool-3">🛠️</div>
-          </div>
-        </div>
-      </div>
+
     </header>
 
     <!-- About Section -->
@@ -142,10 +132,9 @@
               клиенту и его автомобилю.
             </p>
             <p>
-              На большой площади наших автосервисов расположено современное
-              оборудование для выполнения всех необходимых задач:
-              автоподъемники, инструменты для замены масла, диагностическое
-              оборудование и многое другое.
+              Наши автомеханики — это образованные, грамотные специалисты, 
+              которые умеют не только следовать инструкции, но прежде всего — 
+              думать. Думать над решением задачи, думать в интересах клиента.
             </p>
             <p>
               У нас вы можете сделать всё и сразу: от замены резины до
@@ -171,7 +160,7 @@
             </div>
             <div class="feature-card">
               <div class="feature-icon">🏆</div>
-              <h3>Опытные мастера</h3>
+              <h3>Эксперты</h3>
               <p>Сертифицированные специалисты</p>
             </div>
           </div>
@@ -188,14 +177,14 @@
             Полный спектр <span class="gradient-text">автоуслуг</span>
           </h2>
           <p class="section-description">
-            От простой диагностики до сложного ремонта двигателя — мы справимся
+            От простой диагностики до сложного ремонта — мы справимся
             с любой задачей
           </p>
         </div>
         <div class="services-grid">
           <div class="service-card">
             <div class="service-icon">🔍</div>
-            <h3>Компьютерная диагностика</h3>
+            <h3>Диагностика</h3>
             <p>
               Полная диагностика всех систем автомобиля с помощью современного
               оборудования
@@ -242,10 +231,10 @@
             <span class="service-price">от 80€</span>
           </div>
           <div class="service-card">
-            <div class="service-icon">⚡</div>
-            <h3>Ремонт стартера</h3>
-            <p>Диагностика и ремонт стартера и генератора</p>
-            <span class="service-price">от 70€</span>
+            <div class="service-icon">💻</div>
+            <h3>Программирование</h3>
+            <p>Обновление ПО, восстановление блоков, открытие опций</p>
+            <span class="service-price">от 100€</span>
           </div>
         </div>
         <div class="services-cta">
@@ -346,9 +335,7 @@
                 <span class="price-value">от 55€</span>
               </div>
               <div class="price-item">
-                <span class="price-name"
-                  >Замена фильтров (воздушный, салонный)</span
-                >
+                <span class="price-name">Замена фильтров</span>
                 <span class="price-dots"></span>
                 <span class="price-value">от 15€</span>
               </div>
@@ -376,7 +363,7 @@
                 <span class="price-value">от 200€</span>
               </div>
               <div class="price-item">
-                <span class="price-name">Капитальный ремонт двигателя</span>
+                <span class="price-name">Капитальный ремонт</span>
                 <span class="price-dots"></span>
                 <span class="price-value">от 800€</span>
               </div>
@@ -389,7 +376,7 @@
             </h3>
             <div class="price-items">
               <div class="price-item">
-                <span class="price-name">Сезонная замена шин (4 колеса)</span>
+                <span class="price-name">Сезонная замена шин</span>
                 <span class="price-dots"></span>
                 <span class="price-value">от 40€</span>
               </div>
@@ -430,9 +417,7 @@
               <div class="contact-details">
                 <h3>Филиал Lasnamäe</h3>
                 <p>Väike-Paala 10, Tallinn</p>
-                <a href="tel:+37255012345" class="contact-phone"
-                  >+372 5501 2345</a
-                >
+                <a href="tel:+37255012345" class="contact-phone">+372 5501 2345</a>
                 <p class="contact-hours">
                   Пн-Пт: 9:00 - 18:00<br />Сб: 10:00 - 15:00
                 </p>
@@ -443,9 +428,7 @@
               <div class="contact-details">
                 <h3>Филиал Mustamäe</h3>
                 <p>Akadeemia tee 78, Tallinn</p>
-                <a href="tel:+37255067890" class="contact-phone"
-                  >+372 5506 7890</a
-                >
+                <a href="tel:+37255067890" class="contact-phone">+372 5506 7890</a>
                 <p class="contact-hours">
                   Пн-Пт: 9:00 - 18:00<br />Сб: 10:00 - 15:00
                 </p>
@@ -453,69 +436,26 @@
             </div>
             <div class="contact-socials">
               <a href="#" class="social-link" aria-label="Facebook">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  width="24"
-                  height="24"
-                >
-                  <path
-                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                  ></path>
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
               <a href="#" class="social-link" aria-label="Instagram">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  width="24"
-                  height="24"
-                >
-                  <rect
-                    x="2"
-                    y="2"
-                    width="20"
-                    height="20"
-                    rx="5"
-                    ry="5"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  ></rect>
-                  <circle
-                    cx="12"
-                    cy="12"
-                    r="4"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  ></circle>
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                  <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"></circle>
                   <circle cx="18" cy="6" r="1"></circle>
                 </svg>
               </a>
-              <a
-                href="mailto:info@bongo.ee"
-                class="social-link"
-                aria-label="Email"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  width="24"
-                  height="24"
-                >
-                  <path
-                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  ></path>
-                  <polyline
-                    points="22,6 12,13 2,6"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  ></polyline>
+              <a href="https://wa.me/37255012345" class="social-link" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+              </a>
+              <a href="mailto:info@bongo.ee" class="social-link" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2"></path>
+                  <polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"></polyline>
                 </svg>
               </a>
             </div>
@@ -559,6 +499,7 @@
                   <option value="alignment">3D Развал-схождение</option>
                   <option value="tires">Шиномонтаж</option>
                   <option value="ac">Ремонт кондиционера</option>
+                  <option value="programming">Программирование</option>
                   <option value="other">Другое</option>
                 </select>
               </div>
@@ -586,13 +527,10 @@
         <div class="footer-content">
           <div class="footer-brand">
             <a href="#" class="logo">
-              <span class="logo-icon">🔧</span>
-              <span class="logo-text"
-                >Bongo<span class="logo-accent">Service</span></span
-              >
+              <span class="logo-text">BONGO<span class="logo-accent">SERVICE</span></span>
             </a>
             <p>
-              Профессиональный автосервис в Таллине. Качество, которому можно
+              Премиальный автосервис в Таллине. Качество, которому можно
               доверять.
             </p>
           </div>
@@ -622,7 +560,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 Bongo Service. Все права защищены.</p>
+          <p>© 2024 Bongo Service. Все права защищены.</p>
         </div>
       </div>
     </footer>

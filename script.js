@@ -154,12 +154,7 @@ if (statsSection) {
   statsObserver.observe(statsSection);
 }
 
-// Add loading animation
+// Initial visibility
 document.addEventListener("DOMContentLoaded", () => {
-  document.body.style.opacity = "0";
-  document.body.style.transition = "opacity 0.5s ease";
-
-  setTimeout(() => {
-    document.body.style.opacity = "1";
-  }, 100);
+  console.log("Bongo Service initialized");
 });
