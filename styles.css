@@ -6,11 +6,11 @@
   --bg-card: rgba(15, 15, 15, 0.8);
   --bg-card-hover: rgba(25, 25, 25, 0.9);
   
-  /* Accent - Electric Blue Glow */
-  --accent-blue: #0066ff;
-  --accent-blue-light: #3385ff;
-  --accent-glow: rgba(0, 102, 255, 0.4);
-  --accent-glow-strong: rgba(0, 102, 255, 0.6);
+  /* Accent - Monochrome (White/Gray) */
+  --accent-blue: #ffffff;
+  --accent-blue-light: #e0e0e0;
+  --accent-glow: rgba(255, 255, 255, 0.05);
+  --accent-glow-strong: rgba(255, 255, 255, 0.1);
   
   /* Text */
   --text-primary: #ffffff;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
 .shape-1 {
   width: 800px;
   height: 800px;
-  background: var(--accent-blue);
+  background: rgba(255, 255, 255, 0.03);
   top: -400px;
   right: -200px;
 }
@@ -569,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
 .shape-2 {
   width: 600px;
   height: 600px;
-  background: var(--accent-blue);
+  background: rgba(255, 255, 255, 0.02);
   bottom: -300px;
   left: -200px;
   animation-delay: -10s;
@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
 .shape-3 {
   width: 400px;
   height: 400px;
-  background: var(--accent-blue);
+  background: rgba(255, 255, 255, 0.03);
   top: 50%;
   left: 50%;
   animation-delay: -5s;
@@ -684,7 +684,7 @@ section {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
   transform: scaleX(0);
   transition: transform var(--transition-normal);
 }
@@ -772,7 +772,8 @@ section {
 }
 
 .service-card.featured {
-  background: linear-gradient(135deg, rgba(0, 102, 255, 0.1) 0%, var(--bg-primary) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, var(--bg-primary) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .service-badge {
