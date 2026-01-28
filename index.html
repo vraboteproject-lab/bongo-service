@@ -12,15 +12,34 @@
 </head>
 <body>
   <!-- Navigation -->
-  <header class="header">
+  <header class="header" id="navbar">
     <nav class="nav">
-      <a href="#services" class="nav__link">УСЛУГИ</a>
-      <a href="#about" class="nav__link">О НАС</a>
+      <div class="nav__desktop">
+        <a href="#services" class="nav__link">УСЛУГИ</a>
+        <a href="#about" class="nav__link">О НАС</a>
+      </div>
       <a href="#" class="logo">EXPERT<span>Autoteenindus</span></a>
-      <a href="#prices" class="nav__link">ЦЕНЫ</a>
-      <a href="#contact" class="nav__link">КОНТАКТЫ</a>
+      <div class="nav__desktop">
+        <a href="#prices" class="nav__link">ЦЕНЫ</a>
+        <a href="#contact" class="nav__link">КОНТАКТЫ</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
   </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-nav-links">
+      <a href="#services">УСЛУГИ</a>
+      <a href="#about">О НАС</a>
+      <a href="#prices">ЦЕНЫ</a>
+      <a href="#contact">КОНТАКТЫ</a>
+    </div>
+  </div>
 
   <!-- Hero Section -->
   <section class="hero">
